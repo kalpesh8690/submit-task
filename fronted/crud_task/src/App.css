@@ -1,0 +1,30 @@
+
+/*Navbar */
+.nav-link-wrraper{
+  display: flex;
+  position: relative;
+  gap:10px
+}
+.nav-link{
+  color:aliceblue;
+  text-decoration: none;
+  margin:10px;
+  font-weight: 500;
+}
+.active{
+  color:rgb(255, 255, 255);
+  font-weight: 500;
+  text-shadow: 1px 1px 3px black;
+}
+/*Footer */
+.footer-main{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+bottom: -450px;
+background-color: rgb(71, 71, 71);
+width: 100%;
+height: 80px;
+color: aliceblue;
+}

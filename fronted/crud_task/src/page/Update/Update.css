@@ -1,0 +1,69 @@
+/*Create User */
+.create-user-form-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top:100px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+   
+  }
+  .create-user-form-box{
+    position: relative;
+    
+  }
+  .create-user-form{
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+    width: 300px;
+    gap: 20px;
+    z-index: 1;
+    background: rgba(58, 58, 58, 0.3);
+    backdrop-filter: blur(50px);
+    flex-direction:row;
+    overflow: hidden;
+    
+      
+  }
+  .image-upload-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   overflow: hidden;
+  }
+  
+  
+  .update-image-main-wrapper{
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    border: 2px solid rgba(56, 56, 56,0.3);
+    height: auto;
+  }
+  .update-image-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .update-avatar{
+    display: flex;
+    flex: content;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    overflow: hidden;
+    border-radius: 100px;
+    border: 10px solid rgb(216, 216, 216) ;
+  }

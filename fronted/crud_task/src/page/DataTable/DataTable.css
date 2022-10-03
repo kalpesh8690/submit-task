@@ -1,0 +1,15 @@
+.create-user-wrraper{
+    display: flex;
+    position: relative;
+    flex: 1;
+    justify-content: center;
+    width: 100%;
+  }
+  .create-user-btn{
+    position: relative;
+    top:20px
+  }
+  .avatar{
+    width:80px;
+  
+  }
